@@ -1,0 +1,175 @@
+/*Global Settings*/
+
+* {margin: 0; padding: 0; font-family: 'Noto Sans', sans-serif;}
+.li {list-style: none;}
+a {text-decoration: none;}
+
+/*Color Palette*/
+
+.pink-bg {background-color: #ff6c75;}
+.blue-bg {background-color: #1e4e9c;}
+.green-bg {background-color: #69d7bf;}
+.yellow-bg {background-color: #ffba01;}
+.black-bg {background-color: #363f54;}
+.ocean-bg {background-color: #5c5c76}
+.pearl {color: #f7f6f2;}
+
+/*Font Weight*/
+
+.heavy {font-weight: 900;}
+
+/*Font Size*/
+
+.large-text {font-size: 2em;}
+.medium-text {font-size: 1.2em;}
+
+/*Main Stylesheet Begins*/
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  text-align: center;
+  height: 10vh;
+  padding-top: 5vh;
+}
+
+header a {
+  margin-left: 2%;
+  margin-right: 2%;
+  line-height: 1;
+}
+
+#body-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow-x: hidden; /*critical to the sliding animations*/
+}
+
+.block {
+  position: relative;
+  width: 100%;
+  min-height: 1200px;
+  display: block;
+}
+
+/*Create animation classes: pink - fade in; green - slide in from left; blue - slide in from right;*/
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+  -moz-animation-name: fadeIn;
+  -moz-animation-duration: 2s;
+  -ms-animation-name: fadeIn;
+  -ms-animation-duration: 2s;
+  -o-animation-name: fadeIn;
+  -o-animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-ms-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-o-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.slideInLeft {
+  animation-name: slideInLeft;
+  animation-duration: 1.5s;
+  -webkit-animation-name: slideInLeft;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-name: slideInLeft;
+  -moz-animation-duration: 1.5s;
+  -ms-animation-name: slideInLeft;
+  -ms-animation-duration: 1.5s;
+  -o-animation-name: slideInLeft;
+  -o-animation-duration: 1.5s;
+}
+
+@keyframes slideInLeft {
+  from {transform: translateX(-100%)}
+  to {transform: translateX(0)}
+}
+
+@-webkit-keyframes slideInLeft {
+  from {transform: translateX(-100%)}
+  to {transform: translateX(0)}
+}
+
+@-moz-keyframes slideInLeft {
+  from {transform: translateX(-100%)}
+  to {transform: translateX(0)}
+}
+
+@-ms-keyframes slideInLeft {
+  from {transform: translateX(-100%)}
+  to {transform: translateX(0)}
+}
+
+@-o-keyframes slideInLeft {
+  from {transform: translateX(-100%)}
+  to {transform: translateX(0)}
+}
+
+.slideInRight {
+  animation-name: slideInRight;
+  animation-duration: 1.5s;
+  -webkit-animation-name: slideInRight;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-name: slideInRight;
+  -moz-animation-duration: 1.5s;
+  -ms-animation-name: slideInRight;
+  -ms-animation-duration: 1.5s;
+  -o-animation-name: slideInRight;
+  -o-animation-duration: 1.5s;
+}
+
+@keyframes slideInRight {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0)}
+}
+
+@-webkit-keyframes slideInRight {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0)}
+}
+
+@-moz-keyframes slideInRight {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0)}
+}
+
+@-ms-keyframes slideInRight {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0)}
+}
+
+@-o-keyframes slideInRight {
+  from {transform: translateX(100%)}
+  to {transform: translateX(0)}
+}
