@@ -8,7 +8,7 @@ This project includes trendy UI improvement techniques. All major codes are expl
 
 ## License
 
-Feel free to use as you want.
+Available to public without restrictions
 
 ## Acknowledgments
 
