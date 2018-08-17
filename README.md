@@ -1,4 +1,4 @@
-# A Collection of Trendy UI Improvement techniques
+# A Collection of Trendy UI Improvement Techniques
 
 This project includes trendy UI improvement techniques triggered by window scroll event. All major codes are explained in the comments.  <br>#1 Animated display of elements when scroll into the viewport<br>#2 Animated scroll to destination when click on anchor links
 
