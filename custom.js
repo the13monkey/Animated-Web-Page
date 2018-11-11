@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  //Create an "inView" function to test whether an element is in the viewport
+  //Create an "inView" function to test whether an element is in the viewpoint
   $.fn.inView = function(){
     var viewTop = $(this).offset().top;
     var viewBottom = viewTop + $(this).outerHeight();
