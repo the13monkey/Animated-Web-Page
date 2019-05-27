@@ -1,15 +1,7 @@
-# A Collection of Trendy UI Improvement Techniques
+# Animated Web Page
 
-This project includes trendy UI improvement techniques. All major codes are explained in the comments.  <br>• Animated display of elements when scroll into viewport<br>• Animated scroll to destination when click on anchor links
+Two scroll functions for better UI, built on JQuery
 
-## Author
-
-* **Dinah Chen**  [Portfolio](http://dinahchen.rocks)
-
-## License
-
-* Available to public without restrictions
-
-## Acknowledgments
-
-* Thanks to the internet and to the original coders who inspired millions to follow their techniques.
+## Content 
+* Animated display when scroll to viewpoint 
+* Animated display when click an anchor link
